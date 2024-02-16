@@ -49,6 +49,14 @@ section {
   cursor: default;
 }
 
+
+
+.navbar.open {
+  display: block;
+  text-align: center;
+  background-color: #3F2E3E;
+}
+
 .navbar a {
   font-size: 1.7rem;
   color: #A78295;
@@ -108,7 +116,7 @@ section {
 }
 
 span {
-  color: azure;
+  color: #AE445A;
 }
 
 .btn {
@@ -284,19 +292,78 @@ btn:hover {
   }
 }
 
-section {
-      padding: 10rem 3% 2rem;
+@media screen and (max-width: 768px) {
+  .works-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
   }
 
-footer {
-      padding: 2rem 3%;
+  .works-box {
+      margin-bottom: 20px; 
   }
+
+  .works-box img {
+      max-width: 100%; 
+  }
+}
+
 
 
 @media (max-width: 768px) {
   #menu-icon {
       display: block;
   }
+
+@media screen and (max-width: 768px) {
+  .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .about-img img {
+      max-width: 100%;
+      height: auto; 
+      margin-bottom: 20px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+      text-align: center; 
+  }
+
+  .about-content {
+      margin-bottom: 20px; 
+  }
+
+  .about-content .bx {
+      display: block; 
+      margin: 0 auto; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+      text-align: center; 
+  }
+
+  .about-content {
+      margin-bottom: 20px; 
+  }
+
+  .about-content .heading {
+      text-align: center; 
+  }
+
+  .about-content .bx {
+      display: block; 
+      margin: 0 auto; 
+  }
+}
+
+ 
 
   .navbar {
     position: absolute;
