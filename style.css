@@ -270,10 +270,12 @@ btn:hover {
 
 .contact form .input-box input {
   width: 49%;
+  color: #3F2E3E;
 }
 
 .contact form textarea {
   resize: none;
+  color: #451952;
 }
 
 .contact form .btn {
@@ -363,6 +365,22 @@ btn:hover {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .home {
+      display: flex;
+      flex-direction: column-reverse; 
+  }
+
+  .home-img {
+      margin-top: 20px;
+  }
+
+  .home-img img {
+      width: 100%; 
+      height: auto; 
+  }
+}
+
  
 
   .navbar {
@@ -395,8 +413,11 @@ footer {
   background: #3F2E3E;
   color: #A78295;
   text-align: center;
-  padding: 24px;
   position: fixed;
   bottom: 0;
   width: 100%;
+  position: fixed;
+  margin-top: auto;
+  padding: 20px 0;
 }
+
